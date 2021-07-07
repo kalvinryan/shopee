@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.Cart_product">
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:background="@drawable/ic_baseline_arrow_back_24"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="20dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:gravity="left|center"
+                android:textSize="20sp"
+                android:text="Keranjang Saya"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+</LinearLayout>

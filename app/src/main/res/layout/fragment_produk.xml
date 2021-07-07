@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.Produk">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/productImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sepatu" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:id="@+id/idProductTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:id="@+id/productTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sepatu"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:id="@+id/priceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp.20.0000.000" />
+        <TextView
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:id="@+id/stockTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginBottom="10dp"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/btnview"
+                android:layout_gravity="center"
+                android:id="@+id/ViewMyImage"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_marginBottom="10dp"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/btncart"
+                android:layout_gravity="center"
+                android:id="@+id/addToCartButton"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>
